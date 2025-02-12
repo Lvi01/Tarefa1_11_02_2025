@@ -6,6 +6,11 @@
 //Definição das constantes que foram utilizadas no código
 #define SERVO_PIN 22  // GPIO do servomotor
 #define LED_PIN 12 // GPIO do LED (Usada para fazer o teste do requisito 6 da atividade)
+// Comportamento do LED: Ao usar o LED no lugar do servo motor foi visto que,
+//                       o LED brilha mais na configuração da POS_180, brilho
+//                       médio na POS_90 e por fim, ficou com o brilho mais
+//                       fraco na POS_0. Já enquanto ele muda de 0° a 180°
+//                       o seu brilho vai aumentando e diminuindo respectivamente.
 
 // Cálculo da frequência do PWM:
 // Frequência desejada: 50Hz -> Período = 1 / 50 = 20ms = 20000µs
