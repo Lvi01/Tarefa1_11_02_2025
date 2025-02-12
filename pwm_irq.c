@@ -1,7 +1,9 @@
+//Bibliotecas que foram necessárias para o funcionamento adequado do código
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 
+//Definição das constantes que foram utilizadas no código
 #define SERVO_PIN 22  // GPIO do servomotor
 #define LED_PIN 12 // GPIO do LED (Usada para fazer o teste do requisito 6 da atividade)
 
