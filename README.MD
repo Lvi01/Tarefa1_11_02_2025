@@ -13,8 +13,11 @@ Link: https://youtu.be/c1XLK5nJD-0
 Se o LED GPIO 12 fosse controlado diretamente pelo sinal PWM utilizado para o servo, seu comportamento dependeria do duty cycle do PWM:
 
 Posição 0° (500µs) → O LED ficaria com brilho fraco, pois estaria ligado apenas uma pequena fração do tempo.
+
 Posição 90° (1500µs) → O LED ficaria com brilho médio, já que o PWM estaria ligado por um tempo maior.
+
 Posição 180° (2500µs) → O LED ficaria mais brilhante, pois o sinal PWM teria um tempo ativo maior.
+
 Movimentação contínua (0° a 180° e vice-versa) → O LED aumentaria e diminuiria o brilho suavemente, simulando um efeito de pulsação gradual.
 
 Ou seja, no lugar do servo motor, o LED funcionaria como um indicador visual da variação do duty cycle, com intensidade proporcional ao tempo ativo do PWM.
