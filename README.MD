@@ -7,7 +7,7 @@
 **11 de fevereiro de 2025**
 
 ## Link de entrega
-Link: A gravar...
+Link: https://youtu.be/c1XLK5nJD-0
 
 ## Requisito n° 6
 Se o LED GPIO 12 fosse controlado diretamente pelo sinal PWM utilizado para o servo, seu comportamento dependeria do duty cycle do PWM:
